@@ -1,5 +1,5 @@
 ---
-description: Polish and refine a completed chapter through interactive Q&A interview process.
+description: 通过交互式问答润色和优化章节
 scripts:
   sh: .novelkit/scripts/bash/chapter-manager.sh polish --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/chapter-manager.ps1 -Action Polish -Json "$ARGUMENTS"

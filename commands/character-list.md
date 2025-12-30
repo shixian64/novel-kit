@@ -1,5 +1,5 @@
 ---
-description: List all existing characters with key details.
+description: 列出所有角色及其关键信息
 scripts:
   sh: .novelkit/scripts/bash/character-manager.sh list --json
   ps: .novelkit/scripts/powershell/character-manager.ps1 -Action List -Json

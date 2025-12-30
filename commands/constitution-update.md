@@ -1,5 +1,5 @@
 ---
-description: Update the novel constitution through interactive Q&A interview process.
+description: 通过交互式问答更新小说宪法
 scripts:
   sh: .novelkit/scripts/bash/constitution-manager.sh update --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/constitution-manager.ps1 -Action Update -Json "$ARGUMENTS"

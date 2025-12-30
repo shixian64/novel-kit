@@ -1,5 +1,5 @@
 ---
-description: Display the complete novel constitution.
+description: 显示完整的小说宪法
 scripts:
   sh: .novelkit/scripts/bash/constitution-manager.sh show --json
   ps: .novelkit/scripts/powershell/constitution-manager.ps1 -Action Show -Json

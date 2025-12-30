@@ -1,5 +1,5 @@
 ---
-description: List all main plots.
+description: 列出所有主线剧情
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh list --type main
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action List -Type main

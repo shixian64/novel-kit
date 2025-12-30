@@ -1,5 +1,5 @@
 ---
-description: Interactive side plot creation linked to main plots.
+description: 交互式创建支线剧情并关联主线
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh new --type side "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action New -Type side -Arguments "$ARGUMENTS"

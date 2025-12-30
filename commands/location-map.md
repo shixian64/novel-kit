@@ -1,5 +1,5 @@
 ---
-description: Generate or display a map visualization for a location.
+description: 生成或显示地点的地图可视化
 scripts:
   sh: .novelkit/scripts/bash/location-manager.sh map "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/location-manager.ps1 -Action Map -Arguments "$ARGUMENTS"

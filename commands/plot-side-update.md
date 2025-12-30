@@ -1,5 +1,5 @@
 ---
-description: Interactive update of side plot progress.
+description: 交互式更新支线剧情进度
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh update "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action Update -Arguments "$ARGUMENTS"

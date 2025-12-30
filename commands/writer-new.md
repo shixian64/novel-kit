@@ -1,5 +1,5 @@
 ---
-description: Create a new writer profile through interactive Q&A interview process or from user input.
+description: 通过交互式问答创建新的写作风格配置
 scripts:
   sh: .novelkit/scripts/bash/writer-manager.sh new --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/writer-manager.ps1 -Action New -Json "$ARGUMENTS"

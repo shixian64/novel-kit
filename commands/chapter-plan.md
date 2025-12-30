@@ -1,5 +1,5 @@
 ---
-description: Plan the next chapter through interactive Q&A interview process, automatically reading the latest completed chapter.
+description: 通过交互式问答规划下一章节内容
 scripts:
   sh: .novelkit/scripts/bash/chapter-manager.sh plan --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/chapter-manager.ps1 -Action Plan -Json "$ARGUMENTS"

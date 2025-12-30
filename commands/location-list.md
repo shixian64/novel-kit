@@ -1,5 +1,5 @@
 ---
-description: List all existing locations with key details.
+description: 列出所有地点及其关键信息
 scripts:
   sh: .novelkit/scripts/bash/location-manager.sh list --json
   ps: .novelkit/scripts/powershell/location-manager.ps1 -Action List -Json

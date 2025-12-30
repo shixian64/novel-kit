@@ -1,5 +1,5 @@
 ---
-description: Interactive update of an existing character profile.
+description: 交互式更新角色档案
 scripts:
   sh: .novelkit/scripts/bash/character-manager.sh update "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/character-manager.ps1 -Action Update -Arguments "$ARGUMENTS"

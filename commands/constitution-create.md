@@ -1,5 +1,5 @@
 ---
-description: Create the novel constitution through interactive Q&A interview process.
+description: 通过交互式问答创建小说宪法
 scripts:
   sh: .novelkit/scripts/bash/constitution-manager.sh create --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/constitution-manager.ps1 -Action Create -Json "$ARGUMENTS"

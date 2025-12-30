@@ -1,5 +1,5 @@
 ---
-description: Switch the active writer profile for current writing session.
+description: 切换当前活动的写作风格
 scripts:
   sh: .novelkit/scripts/bash/writer-manager.sh switch --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/writer-manager.ps1 -Action Switch -Json "$ARGUMENTS"

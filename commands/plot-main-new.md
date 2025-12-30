@@ -1,5 +1,5 @@
 ---
-description: Interactive main plot creation with structure guidance.
+description: 交互式创建主线剧情
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh new --type main "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action New -Type main -Arguments "$ARGUMENTS"

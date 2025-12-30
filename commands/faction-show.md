@@ -1,5 +1,5 @@
 ---
-description: Display detailed profile of a specific faction.
+description: 显示指定势力的详细信息
 scripts:
   sh: .novelkit/scripts/bash/faction-manager.sh show "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/faction-manager.ps1 -Action Show -Arguments "$ARGUMENTS"

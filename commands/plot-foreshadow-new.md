@@ -1,5 +1,5 @@
 ---
-description: Create a foreshadowing element to be tracked.
+description: 创建需要追踪的伏笔元素
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh new --type foreshadow "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action New -Type foreshadow -Arguments "$ARGUMENTS"

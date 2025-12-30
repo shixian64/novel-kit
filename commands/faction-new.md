@@ -1,5 +1,5 @@
 ---
-description: Interactive faction creation with world integration.
+description: 交互式创建新势力并集成到世界
 scripts:
   sh: .novelkit/scripts/bash/faction-manager.sh new "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/faction-manager.ps1 -Action New -Arguments "$ARGUMENTS"

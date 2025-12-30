@@ -1,5 +1,5 @@
 ---
-description: Interactive update of faction details.
+description: 交互式更新势力信息
 scripts:
   sh: .novelkit/scripts/bash/faction-manager.sh update "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/faction-manager.ps1 -Action Update -Arguments "$ARGUMENTS"

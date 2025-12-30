@@ -1,5 +1,5 @@
 ---
-description: List all available writer profiles with their current status.
+description: 列出所有写作风格配置及其状态
 scripts:
   sh: .novelkit/scripts/bash/writer-manager.sh list --json
   ps: .novelkit/scripts/powershell/writer-manager.ps1 -Action List -Json

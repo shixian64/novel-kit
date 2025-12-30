@@ -1,5 +1,5 @@
 ---
-description: Review a chapter for conflicts, consistency issues, and constitution compliance through comprehensive analysis.
+description: 审查章节的冲突、一致性和宪法合规性
 scripts:
   sh: .novelkit/scripts/bash/chapter-manager.sh review --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/chapter-manager.ps1 -Action Review -Json "$ARGUMENTS"

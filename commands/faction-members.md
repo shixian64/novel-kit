@@ -1,5 +1,5 @@
 ---
-description: Manage and view members of a specific faction.
+description: 管理和查看势力成员
 scripts:
   sh: .novelkit/scripts/bash/faction-manager.sh members "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/faction-manager.ps1 -Action Members -Arguments "$ARGUMENTS"

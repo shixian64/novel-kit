@@ -1,5 +1,5 @@
 ---
-description: Display detailed information about a specific writer profile.
+description: 显示指定写作风格的详细信息
 scripts:
   sh: .novelkit/scripts/bash/writer-manager.sh show --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/writer-manager.ps1 -Action Show -Json "$ARGUMENTS"

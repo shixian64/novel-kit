@@ -1,5 +1,5 @@
 ---
-description: Check if content complies with the novel constitution.
+description: 检查内容是否符合小说宪法
 scripts:
   sh: .novelkit/scripts/bash/constitution-manager.sh check --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/constitution-manager.ps1 -Action Check -Json "$ARGUMENTS"

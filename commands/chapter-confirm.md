@@ -1,5 +1,5 @@
 ---
-description: Confirm chapter completion, extract key information, and update world-building data and state machine.
+description: 确认章节完成并更新世界构建数据
 scripts:
   sh: .novelkit/scripts/bash/chapter-manager.sh confirm --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/chapter-manager.ps1 -Action Confirm -Json "$ARGUMENTS"

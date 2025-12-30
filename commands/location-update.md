@@ -1,5 +1,5 @@
 ---
-description: Interactive update of location details.
+description: 交互式更新地点信息
 scripts:
   sh: .novelkit/scripts/bash/location-manager.sh update "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/location-manager.ps1 -Action Update -Arguments "$ARGUMENTS"

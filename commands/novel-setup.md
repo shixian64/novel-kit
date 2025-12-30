@@ -1,5 +1,5 @@
 ---
-description: Initialize NovelKit project user space directories. This is a prerequisite for all other commands.
+description: 初始化项目目录结构（使用其他命令的前提）
 scripts:
   sh: .novelkit/scripts/bash/setup-manager.sh --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/setup-manager.ps1 -Json "$ARGUMENTS"

@@ -1,5 +1,5 @@
 ---
-description: Display detailed profile of a specific character.
+description: 显示指定角色的详细档案
 scripts:
   sh: .novelkit/scripts/bash/character-manager.sh show "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/character-manager.ps1 -Action Show -Arguments "$ARGUMENTS"

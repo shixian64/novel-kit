@@ -1,5 +1,5 @@
 ---
-description: Interactive character creation with constitution compliance checks and auto-generated profiles.
+description: 交互式创建新角色并检查宪法合规性
 scripts:
   sh: .novelkit/scripts/bash/character-manager.sh new "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/character-manager.ps1 -Action New -Arguments "$ARGUMENTS"

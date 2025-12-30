@@ -1,5 +1,5 @@
 ---
-description: List all side plots.
+description: 列出所有支线剧情
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh list --type side
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action List -Type side

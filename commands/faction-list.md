@@ -1,5 +1,5 @@
 ---
-description: List all existing factions with key details.
+description: 列出所有势力及其关键信息
 scripts:
   sh: .novelkit/scripts/bash/faction-manager.sh list --json
   ps: .novelkit/scripts/powershell/faction-manager.ps1 -Action List -Json

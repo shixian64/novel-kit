@@ -1,5 +1,5 @@
 ---
-description: Write a chapter based on the planning document, using the current active writer profile.
+description: 根据规划文档撰写章节正文
 scripts:
   sh: .novelkit/scripts/bash/chapter-manager.sh write --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/chapter-manager.ps1 -Action Write -Json "$ARGUMENTS"

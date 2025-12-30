@@ -1,5 +1,5 @@
 ---
-description: Display detailed profile of a specific location.
+description: 显示指定地点的详细信息
 scripts:
   sh: .novelkit/scripts/bash/location-manager.sh show "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/location-manager.ps1 -Action Show -Arguments "$ARGUMENTS"

@@ -1,5 +1,5 @@
 ---
-description: Display detailed main plot file.
+description: 显示主线剧情详情
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh show "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action Show -Arguments "$ARGUMENTS"

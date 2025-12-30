@@ -1,5 +1,5 @@
 ---
-description: Visualize and manage diplomatic relationships between factions.
+description: 可视化和管理势力之间的关系
 scripts:
   sh: .novelkit/scripts/bash/faction-manager.sh relationships "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/faction-manager.ps1 -Action Relationships -Arguments "$ARGUMENTS"

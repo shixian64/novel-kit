@@ -1,5 +1,5 @@
 ---
-description: List all foreshadowing elements.
+description: 列出所有伏笔元素
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh list --type foreshadow
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action List -Type foreshadow

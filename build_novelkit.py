@@ -536,7 +536,19 @@ def convert_command_file(
         output_file.write_text(body, encoding="utf-8")
     else:
         # Markdown 格式（默认）
-        output_file.write_text(body, encoding="utf-8")
+        # Claude Code 需要 frontmatter 中的 description 和 allowed-tools
+        if ai == "claude":
+            # 构建 Claude Code 所需的 frontmatter
+            script_dir = "bash" if platform == "linux" else "powershell"
+            claude_frontmatter = f"""---
+description: {description}
+allowed-tools: Bash(.novelkit/scripts/{script_dir}/*:*)
+---
+
+"""
+            output_file.write_text(claude_frontmatter + body, encoding="utf-8")
+        else:
+            output_file.write_text(body, encoding="utf-8")
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:

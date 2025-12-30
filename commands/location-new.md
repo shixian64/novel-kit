@@ -1,5 +1,5 @@
 ---
-description: Interactive location creation with world map integration.
+description: 交互式创建新地点并集成到世界地图
 scripts:
   sh: .novelkit/scripts/bash/location-manager.sh new "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/location-manager.ps1 -Action New -Arguments "$ARGUMENTS"

@@ -1,5 +1,5 @@
 ---
-description: Update an existing writer profile through interactive Q&A interview process.
+description: 通过交互式问答更新写作风格配置
 scripts:
   sh: .novelkit/scripts/bash/writer-manager.sh update --json "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/writer-manager.ps1 -Action Update -Json "$ARGUMENTS"

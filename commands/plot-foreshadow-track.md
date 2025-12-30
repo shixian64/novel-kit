@@ -1,5 +1,5 @@
 ---
-description: Update status of foreshadowing (reveal or abandon).
+description: 更新伏笔状态（揭示或放弃）
 scripts:
   sh: .novelkit/scripts/bash/plot-manager.sh update "$ARGUMENTS"
   ps: .novelkit/scripts/powershell/plot-manager.ps1 -Action Update -Arguments "$ARGUMENTS"
