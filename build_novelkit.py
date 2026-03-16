@@ -40,6 +40,25 @@ from pathlib import Path
 from typing import Callable
 
 
+def _configure_stdio() -> None:
+    """
+    Make stdout/stderr robust on Windows GBK consoles.
+
+    Some environments default to GBK (cp936). Printing characters like "✓" would
+    raise UnicodeEncodeError and abort the build. Using backslashreplace keeps
+    output readable without crashing.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(errors="backslashreplace")
+        except Exception:
+            # Not all stream types support reconfigure().
+            pass
+
+
+_configure_stdio()
+
+
 def load_build_config() -> tuple[set[str], set[str]]:
     """从 build-config.json 加载构建配置"""
     config_path = Path(__file__).parent / "build-config.json"
